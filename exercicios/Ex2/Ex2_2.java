@@ -1,3 +1,5 @@
+package Ex2;
+
 import java.util.Scanner;
 
 
@@ -24,16 +26,16 @@ public class Ex2_2 {
 
         if (imc <= 18.5){
             System.out.println("Abaixo do peso. IMC: "+ imc);
-        }else if (imc > 18.5 && imc <= 24.9){
+        }else if (imc <= 24.9){
             System.out.println("Peso ideal. IMC: "+ imc);
 
-        }else if (imc > 24.9 && imc <= 29.9){
+        }else if (imc <= 29.9){
             System.out.println("Levemente acima do peso. IMC: "+ imc);
 
-        }else if (imc > 29.9 && imc <= 34.9){
+        }else if (imc <= 34.9){
             System.out.println("Obesidade Grau I. IMC: "+ imc);
 
-        }else if (imc > 34.9 && imc <= 39.9){
+        }else if (imc <= 39.9){
             System.out.println("Obesidade Grau II (Severa). IMC: "+ imc);
 
         }else{
